@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1774862449259,
+    "name": "Sanjay S N",
+    "mobile": "07868000645",
+    "email": "snsanjay2002@gmail.com",
+    "location": "Anna Nagar, Chennai",
+    "district": "chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-03-30T09:20:49.259Z"
+  },
+  {
+    "id": 1774862473917,
+    "name": "Sanjay S N",
+    "mobile": "07868000645",
+    "email": "snsanjay2002@gmail.com",
+    "location": "Anna Nagar, Chennai",
+    "district": "chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-03-30T09:21:13.917Z"
+  },
+  {
+    "id": 1774869058755,
+    "name": "Sanjay S N",
+    "mobile": "07868000645",
+    "email": "snsanjay2002@gmail.com",
+    "location": "1/146, Poonamallee High Rd, Adayalampet, Vanagaram, Chennai, Tamil Nadu 600095, India",
+    "district": "chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-03-30T11:10:58.755Z"
+  },
+  {
+    "id": 1775198173468,
+    "name": "Sanjay S N",
+    "mobile": "+917868000645",
+    "email": "snsanjay2002@gmail.com",
+    "location": "Anna Nagar, Chennai",
+    "district": "chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-04-03T06:36:13.468Z"
+  },
+  {
+    "id": 1775198175159,
+    "name": "Sanjay S N",
+    "mobile": "+917868000645",
+    "email": "snsanjay2002@gmail.com",
+    "location": "Anna Nagar, Chennai",
+    "district": "chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-04-03T06:36:15.159Z"
+  },
+  {
+    "id": 1775198196924,
+    "name": "Sanjay S N",
+    "mobile": "+917868000645",
+    "email": "snsanjay2002@gmail.com",
+    "location": "Anna Nagar, Chennai",
+    "district": "chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-04-03T06:36:36.924Z"
+  },
+  {
+    "id": 1775198280751,
+    "name": "Sanjay S N",
+    "mobile": "+917868000645",
+    "email": "snsanjay2002@gmail.com",
+    "location": "Anna Nagar, Chennai",
+    "district": "chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-04-03T06:38:00.751Z"
+  },
+  {
+    "id": 1775198294815,
+    "name": "Sanjay S N",
+    "mobile": "+917868000645",
+    "email": "snsanjay2002@gmail.com",
+    "location": "Anna Nagar, Chennai",
+    "district": "chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-04-03T06:38:14.815Z"
+  },
+  {
+    "id": 1775198352740,
+    "name": "Sanjay S N",
+    "mobile": "+917868000645",
+    "email": "snsanjay2002@gmail.com",
+    "location": "Anna Nagar, Chennai",
+    "district": "chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-04-03T06:39:12.740Z"
+  },
+  {
+    "id": 1775198425016,
+    "name": "Test Altron",
+    "mobile": "+91 99999 88888",
+    "email": "snsanjay2002@gmail.com",
+    "location": "Chennai",
+    "district": "Chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-04-03T06:40:25.016Z"
+  },
+  {
+    "id": 1775210598486,
+    "name": "Verify User",
+    "mobile": "0000000000",
+    "email": "verify@example.com",
+    "location": "Chennai",
+    "district": "Chennai",
+    "investmentReady": "Yes",
+    "type": "franchise",
+    "createdAt": "2026-04-03T10:03:18.486Z"
+  }
+]

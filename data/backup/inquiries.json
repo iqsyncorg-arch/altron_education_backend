@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1774862499988,
+    "fullName": "Standard Inquiry",
+    "phone": "123",
+    "email": "std@test.com",
+    "requirements": "Test",
+    "createdAt": "2026-03-30T09:21:39.988Z"
+  },
+  {
+    "id": 1774862596616,
+    "name": "Sanjay S N",
+    "mobile": "07868000645",
+    "email": "snsanjay2002@gmail.com",
+    "message": "efeqaf",
+    "createdAt": "2026-03-30T09:23:16.616Z"
+  }
+]

@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1775137976344,
+    "course_information": {
+      "course_name": "test",
+      "course_code": "123",
+      "registration_number": "123",
+      "application_number": "123",
+      "passport_photo": "https://res.cloudinary.com/dexrm9ve9/image/upload/v1775137952/altron-gallery/sxwbij5lhkin9ju6eyzm.png"
+    },
+    "biographical_information": {
+      "full_name": "Sanjay S N",
+      "place_of_birth": "salem",
+      "state_country": "India",
+      "religion": "hindu",
+      "nationality": "indian",
+      "mother_tongue": "tamil",
+      "sex": "male",
+      "date_of_birth": "2026-04-05",
+      "blood_group": "A+",
+      "permanent_address": "Silk Board Flyover\nNA",
+      "telephone_number": "",
+      "mobile_number": "07868000645",
+      "email": "snsanjay2002@gmail.com"
+    },
+    "education_details": {
+      "qualifying_exam_name": "",
+      "year_of_passing": "",
+      "number_of_attempts": "",
+      "affiliating_body_university": "",
+      "institution_last_studied": ""
+    },
+    "declaration": {
+      "parent_name": "",
+      "parent_signature": "",
+      "student_name": "",
+      "candidate_signature": "",
+      "place": "",
+      "date": ""
+    },
+    "additional_information": {
+      "reason_for_interest_1": "",
+      "reason_for_interest_2": "",
+      "reason_for_interest_3": ""
+    },
+    "attachments_required": {
+      "application_fee": "",
+      "registration_fee_nri": "",
+      "certificates_and_marksheets": "",
+      "passport_photos": ""
+    },
+    "franchiseId": 1775137895638,
+    "franchiseEmail": "snsanjay2002@gmail.com",
+    "addedByRole": "franchise",
+    "createdAt": "2026-04-02T13:52:56.344Z"
+  },
+  {
+    "id": 1775138027118,
+    "course_information": {
+      "course_name": "test 2 ",
+      "course_code": "123",
+      "registration_number": "123",
+      "application_number": "2e",
+      "passport_photo": "https://res.cloudinary.com/dexrm9ve9/image/upload/v1775138009/altron-gallery/k3hlg54qlfz0zpbc4ipi.png"
+    },
+    "biographical_information": {
+      "full_name": "sanjay",
+      "place_of_birth": "salem",
+      "state_country": "636905",
+      "religion": "hindu",
+      "nationality": "indian",
+      "mother_tongue": "",
+      "sex": "male",
+      "date_of_birth": "2026-04-05",
+      "blood_group": "",
+      "permanent_address": "",
+      "telephone_number": "",
+      "mobile_number": "",
+      "email": ""
+    },
+    "education_details": {
+      "qualifying_exam_name": "",
+      "year_of_passing": "",
+      "number_of_attempts": "",
+      "affiliating_body_university": "",
+      "institution_last_studied": ""
+    },
+    "declaration": {
+      "parent_name": "",
+      "parent_signature": "",
+      "student_name": "",
+      "candidate_signature": "",
+      "place": "",
+      "date": ""
+    },
+    "additional_information": {
+      "reason_for_interest_1": "",
+      "reason_for_interest_2": "",
+      "reason_for_interest_3": ""
+    },
+    "attachments_required": {
+      "application_fee": "",
+      "registration_fee_nri": "",
+      "certificates_and_marksheets": "",
+      "passport_photos": ""
+    },
+    "franchiseId": null,
+    "franchiseEmail": "admin",
+    "createdAt": "2026-04-02T13:53:47.118Z"
+  }
+]

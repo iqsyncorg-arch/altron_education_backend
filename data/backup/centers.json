@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1774863000001,
+    "name": "Chennai — Arumbakkam (Head Office)",
+    "address": "79A/44A, S1, Panchali Amman Koil Street, Arumbakkam, Chennai – 600 106",
+    "phone": "+91 99624 56533",
+    "email": "info@altroneducation.com",
+    "timing": "Mon – Sat: 9:00 AM – 7:00 PM",
+    "type": "Corporate Headquarters",
+    "mapLink": "https://maps.google.com/?q=Altron+Academy+Arumbakkam",
+    "createdAt": "2026-03-30T09:30:00.000Z"
+  },
+  {
+    "id": 1774863000002,
+    "name": "Thanjavur Regional Center",
+    "address": "#3C, Thiruvallur Nagar 4th Street, New Bus Stand, Thanjavur – 613 005",
+    "phone": "98410 12721",
+    "mobile": "88833 38414",
+    "contactPerson": "Ms. Thilaga / Mrs. Mayuri Thangadurai",
+    "email": "tnj@altroneducation.com",
+    "timing": "Mon – Sat: 9:30 AM – 6:00 PM",
+    "type": "Regional Center",
+    "mapLink": "https://maps.google.com/?q=New+Bus+Stand+Thanjavur",
+    "createdAt": "2026-03-30T09:31:00.000Z"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Diploma Course in CCTV Surveillance System",
+    "slug": "cctv-diploma",
+    "description": "Practical Training Program",
+    "duration": "10 Days (Regular) / 1 Month (Fast Track)",
+    "timing": "10:00 AM – 05:30 PM",
+    "eligibility": "SSLC / HSC / Diploma / Degree",
+    "batchSize": "1 or 2 Candidates Only",
+    "fees": {
+      "original": 15900,
+      "offer": 10900
+    },
+    "subjects": [
+      "Introduction to CCTV Systems",
+      "Types of Cameras (Analog, IP, HD)",
+      "Camera Selection and Placement",
+      "DVR/NVR Installation & Configuration",
+      "Cable Routing and Connections",
+      "Network Configuration for IP Cameras",
+      "Video Storage and Retrieval",
+      "Remote Monitoring Setup",
+      "Troubleshooting Common Issues"
+    ],
+    "createdAt": "2026-03-29T08:23:49.758Z"
+  },
+  {
+    "id": 2,
+    "title": "Fire Alarm Installation Training",
+    "slug": "fire-alarm-training",
+    "description": "Professional Certification in Life Safety Systems",
+    "duration": "Flexible Schedules",
+    "timing": "10:00 AM – 04:00 PM",
+    "eligibility": "Open to All Seekers",
+    "batchSize": "Small Groups",
+    "fees": {
+      "original": 12000,
+      "offer": 8500
+    },
+    "subjects": [
+      "Smoke Detection",
+      "Heat & Flame Sensors",
+      "Fire Alarm Control Panels (FACP)",
+      "Emergency Notification Systems",
+      "Circuit Wiring & Integration",
+      "Maintenance and Testing"
+    ],
+    "createdAt": "2026-03-29T08:23:49.758Z"
+  },
+  {
+    "id": 3,
+    "title": "Access Control & Biometric Training",
+    "slug": "access-biometric-training",
+    "description": "Security Protocols and Hardware Integration",
+    "duration": "7 Days Program",
+    "timing": "10:30 AM – 05:00 PM",
+    "eligibility": "Basic Computer Knowledge",
+    "batchSize": "Limited Seats",
+    "fees": {
+      "original": 14000,
+      "offer": 9900
+    },
+    "subjects": [
+      "Fingerprint & Face Recognition",
+      "Magnetic Lock Installation",
+      "RFID Card Systems",
+      "Attendance Software Integration",
+      "Power Supply & Backup",
+      "Admin Software Configuration"
+    ],
+    "createdAt": "2026-03-29T08:23:49.758Z"
+  }
+]
