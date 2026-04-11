@@ -27,4 +27,12 @@ exports.createStory = async (req, res) => {
         res.status(500).json({ message: err.message });
     }
 };
-
+exports.updateStory = async (req, res) => {
+    try {
+        const updated = await Story.findByIdAndUpdate(req.params.id, req.body, { new: true });
+        if (!updated) return res.status(404).json({ message: 'Story not found' });
+        res.json(updated);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
+};

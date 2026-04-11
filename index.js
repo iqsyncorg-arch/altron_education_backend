@@ -17,9 +17,32 @@ mongoose.connect(process.env.MONGODB_URI)
 
 
 
-// Middleware
-app.use(cors());
+// CORS Configuration
+const allowedOrigins = [
+    'https://altronedu.netlify.app',
+    'http://localhost:3000',
+    'http://localhost:5173',
+    'http://localhost:4173',
+    'http://altroneducation.com'
+];
+
+const corsOptions = {
+    origin: function (origin, callback) {
+        // allow requests with no origin (like mobile apps or curl requests)
+        if (!origin) return callback(null, true);
+        if (allowedOrigins.indexOf(origin) !== -1) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    credentials: true,
+    optionsSuccessStatus: 200 // For legacy browser support
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
+app.use('/uploads', express.static('uploads'));
 
 // Basic Route
 app.get('/', (req, res) => {

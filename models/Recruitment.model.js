@@ -1,16 +1,30 @@
 const mongoose = require('mongoose');
 
 const RecruitmentSchema = new mongoose.Schema({
-    jobTitle: String,
-    department: String,
-    location: String,
-    type: String,
-    description: String,
-    requirements: [String],
+    date: String,
+    organisationName: String,
+    address: String,
+    contactPerson: String,
+    landline: String,
+    mobile: String,
+    email: String,
+    website: String,
+    requiredEmployeesNo: String,
+    designation: String,
+    qualification: String,
+    startingSalary: String,
+    conveyance: String,
+    accommodation: String,
+    uniform: String,
+    vehicle: String,
+    esic: String,
+    pf: String,
+    mediClaim: String,
+    projectIncentive: String,
     status: {
         type: String,
-        enum: ['open', 'closed'],
-        default: 'open'
+        enum: ['pending', 'processed'],
+        default: 'pending'
     }
 }, {
     timestamps: true
