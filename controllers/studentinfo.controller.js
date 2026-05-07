@@ -27,14 +27,15 @@ exports.addStudent = async (req, res) => {
     try {
         const studentData = req.body;
 
-        // Calculate Next RID (starting from 1286)
-        const lastStudent = await StudentModel.findOne({ rid: { $regex: /^\d+$/ } }).sort({ rid: -1 });
-        let nextRid = 1286;
-        if (lastStudent && !isNaN(parseInt(lastStudent.rid))) {
-            nextRid = parseInt(lastStudent.rid) + 1;
+        // Only generate if frontend didn't provide one
+        if (!studentData.rid) {
+            const lastStudent = await StudentModel.findOne({ rid: { $regex: /^\d+$/ } }).sort({ rid: -1 });
+            let nextRid = 1286;
+            if (lastStudent && !isNaN(parseInt(lastStudent.rid))) {
+                nextRid = parseInt(lastStudent.rid) + 1;
+            }
+            studentData.rid = String(nextRid);
         }
-
-        studentData.rid = String(nextRid);
 
         // Handle Image Upload
         if (req.file && req.file.path) {
