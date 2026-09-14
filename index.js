@@ -22,6 +22,8 @@ const allowedOrigins = [
     'https://altronedu.netlify.app',
     'http://localhost:3000',
     'http://localhost:5173',
+    'http://localhost:5174',
+    'http://localhost:5175',
     'http://localhost:4173',
     'http://altroneducation.com'
 ];
@@ -33,7 +35,7 @@ const corsOptions = {
         if (allowedOrigins.indexOf(origin) !== -1) {
             callback(null, true);
         } else {
-            callback(new Error('Not allowed by CORS'));
+            callback(new Error('Not allowed by CORS: ' + origin));
         }
     },
     credentials: true,
@@ -67,6 +69,9 @@ app.use('/api/admissions', require('./routes/admission.routes'));
 app.use('/api/franchise-accounts', require('./routes/franchiseAccount.routes'));
 app.use('/api/upload', require('./routes/upload.routes'));
 app.use('/api/chat', require('./routes/chat.routes'));
+app.use('/api/payment', require('./routes/payment.routes'));
+app.use('/api/payments', require('./routes/payment.routes'));
+
 
 
 
