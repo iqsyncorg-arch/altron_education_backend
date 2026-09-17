@@ -20,21 +20,10 @@ mongoose.connect(process.env.MONGODB_URI)
 // CORS Configuration
 const allowedOrigins = [
     'https://altronedu.netlify.app',
-
-    // Production
-    'https://altroneducation.com',
-    'https://www.altroneducation.com',
-
-    // Local development
     'http://localhost:3000',
     'http://localhost:5173',
-    'http://localhost:5174',
-    'http://localhost:5175',
     'http://localhost:4173',
-
-    // Optional HTTP production
-    'http://altroneducation.com',
-    'http://www.altroneducation.com'
+    'http://altroneducation.com'
 ];
 const corsOptions = {
     origin: function (origin, callback) {
